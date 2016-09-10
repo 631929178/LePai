@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              tools:context="com.qianfeng.hyh.fragment.Fragment3">
+    <RadioGroup
+        android:id="@+id/bgradiogroupId"
+        android:layout_width="0dp"
+        android:layout_height="650dp"
+        android:layout_weight="1.4"
+        android:orientation="vertical"
+        >
+        <RadioButton
+            android:id="@+id/bgradiobutton1Id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bbs_bg"
+            android:button="@null"
+            android:drawableLeft="@drawable/bbs_icon_0"
+            android:gravity="center"
+            android:text="全部论坛"
+            android:textColor="#f00"
+            />
+
+        <RadioButton
+            android:id="@+id/bgradiobutton2Id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bbs_bg"
+            android:button="@null"
+            android:drawableLeft="@drawable/bbs_icon_1"
+            android:gravity="center"
+            android:text="题材作品区"
+            android:textColor="#fc000000"
+            />
+
+        <RadioButton
+            android:id="@+id/bgradiobutton3Id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bbs_bg"
+            android:button="@null"
+            android:drawableLeft="@drawable/bbs_icon_2"
+            android:gravity="center"
+            android:text="全部摄影区"
+            android:textColor="#fc000000"
+            />
+
+        <RadioButton
+            android:id="@+id/bgradiobutton4Id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bbs_bg"
+            android:button="@null"
+            android:drawableLeft="@drawable/bbs_icon_3"
+            android:gravity="center"
+            android:text="二手交易区"
+            android:textColor="#fc000000"
+            />
+
+        <RadioButton
+            android:id="@+id/bgradiobutton5Id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bbs_bg"
+            android:button="@null"
+            android:drawableLeft="@drawable/bbs_icon_4"
+            android:gravity="center"
+            android:text="全国分站区"
+            android:textColor="#fc000000"
+            />
+
+        <RadioButton
+            android:id="@+id/bgradiobutton6Id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bbs_bg"
+            android:button="@null"
+            android:drawableLeft="@drawable/bbs_icon_5"
+            android:gravity="center"
+            android:text="器材讨论区"
+            android:textColor="#fc000000"
+            />
+
+        <RadioButton
+            android:id="@+id/bgradiobutton7Id"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bbs_bg"
+            android:button="@null"
+            android:drawableLeft="@drawable/bbs_icon_6"
+            android:gravity="center"
+            android:text="讨论服务区"
+            android:textColor="#fc000000"
+            />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/bgListviewid"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+    </ListView>
+
+
+</LinearLayout>

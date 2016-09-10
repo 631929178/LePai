@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">乐拍一族</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">welcomeActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_editor">EditorActivity</string>
+    <string name="title_activity_sharenum">SharenumActivity</string>
+    <string name="title_activity_fengniao">FengniaoActivity</string>
+    <string name="title_activity_retie">RetieActivity</string>
+    <string name="title_activity_collect">CollectActivity</string>
+    <string name="title_activity_comment_text">CommentTextActivity</string>
+    <string name="title_activity_look">LookActivity</string>
+</resources>

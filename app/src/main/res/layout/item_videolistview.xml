@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/videolinear1Id"
+        android:layout_marginLeft="5dp"
+        android:layout_margin="2dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            android:scaleType="centerCrop"
+            android:id="@+id/videomage1Id"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="aaa"
+            android:textSize="12dp"
+            android:id="@+id/videotext1Id"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/videolinear2Id"
+        android:layout_margin="2dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/logo"
+            android:scaleType="centerCrop"
+            android:id="@+id/videoimage2Id"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="aaa"
+            android:textSize="12dp"
+            android:id="@+id/videotext2Id"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

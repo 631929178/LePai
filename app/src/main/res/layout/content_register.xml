@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.qianfeng.hyh.lepai.RegisterActivity"
+    tools:showIn="@layout/activity_register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@drawable/news_bg_bottom"
+        >
+        <Button
+            android:id="@+id/backlogin1Id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/backlogin"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="登录蜂鸟"
+            android:gravity="center"
+            android:textSize="10dp"
+            />
+
+
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_margin="10dp"
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:id="@+id/nameLinearId"
+         android:background="@drawable/set_bg_login_enter"
+         android:orientation="vertical"
+         >
+         <EditText
+             android:layout_marginLeft="150dp"
+             android:layout_width="260dp"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:id="@+id/nameEditTextId"
+             android:inputType="text"
+             android:textSize="25sp"
+             android:hint="4-14位字符"
+             android:background="@android:drawable/edit_text"
+             />
+         <EditText
+             android:textSize="25sp"
+             android:layout_marginLeft="150dp"
+             android:layout_width="260dp"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:hint="6-16位数字或字母"
+             android:id="@+id/passwordEditTextId"
+             android:inputType="numberPassword"
+             android:background="@android:drawable/edit_text"
+             />
+     </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:layout_margin="10dp"
+          android:orientation="horizontal"
+          >
+          <Button
+              android:id="@+id/registerbuttonId"
+              android:layout_margin="10dp"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"
+              android:textSize="25sp"
+              android:background="@drawable/btn_register"
+              />
+          <Button
+              android:id="@+id/loginbuttonId"
+              android:layout_margin="10dp"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"
+              android:textSize="25sp"
+              android:background="@drawable/btn_login"
+              />
+      </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.qianfeng.hyh.lepai">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MYMAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".welcomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WebActivity"
+            android:label="@string/title_activity_web"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.qianfeng.web"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.qianfeng.register"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditorActivity"
+            android:label="@string/title_activity_editor"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.qianfeng.editor"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SharenumActivity"
+            android:label="@string/title_activity_sharenum"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.qianfeng.share"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FengniaoActivity"
+            android:label="@string/title_activity_fengniao"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.qianfeng.fengniao"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RetieActivity"
+            android:label="@string/title_activity_retie"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.qianfeng.retie"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CollectActivity"
+            android:label="@string/title_activity_collect"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.qianfeng.collect"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CommentTextActivity"
+            android:label="@string/title_activity_comment_text"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.qianfeng.commtentpublish"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LookActivity"
+            android:label="@string/title_activity_look"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.qiangfeng.Look"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>

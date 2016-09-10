@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.qianfeng.hyh.fragment.CollegeHeaderFragment2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/headerCollege2ImageId"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="aaa"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:id="@+id/headerCollege2TextId"
+        android:layout_marginTop="52dp"
+        android:alpha="50"
+        android:gravity="center_vertical"
+        />
+
+</FrameLayout>

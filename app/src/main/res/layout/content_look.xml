@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.qianfeng.hyh.lepai.LookActivity"
+    tools:showIn="@layout/activity_look">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/news_bg_bottom"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/backlogin"
+            android:id="@+id/backLookbuttonId"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="评论"
+            android:textSize="15sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="网友评论 （共0条评论）"
+        android:textSize="25sp"
+        android:layout_margin="3dp"
+        />
+
+
+</LinearLayout>

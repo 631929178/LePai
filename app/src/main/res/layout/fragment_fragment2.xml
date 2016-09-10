@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.qianfeng.hyh.fragment.Fragment2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:id="@+id/liearlayoutHead2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#565A62"
+            android:gravity="center_vertical"
+
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/f2textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="人像"/>
+            <TextView
+                android:id="@+id/f2textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="风光"/>
+            <TextView
+                android:id="@+id/f2textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="生态"/>
+            <TextView
+                android:id="@+id/f2textView4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="数码"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/f2viewLineId"
+            android:layout_width="120dp"
+            android:layout_height="3dp"
+            android:layout_below="@id/liearlayoutHead2"
+            android:layout_above="@+id/f2viewpager"
+            android:background="#DF6108"/>
+
+        <android.support.v4.view.ViewPager
+
+            android:id="@+id/f2viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+
+</FrameLayout>
